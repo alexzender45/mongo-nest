@@ -5,7 +5,7 @@ import { AppService } from './app.service';
 import { BreedsModule } from './breeds/breeds.module';
 
 @Module({
-  imports: [BreedsModule, MongooseModule.forRoot('mongodb+srv://nest:nest@cluster0.oggtn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')],
+  imports: [BreedsModule, MongooseModule.forRoot('')],
   controllers: [AppController],
   providers: [AppService],
 })
